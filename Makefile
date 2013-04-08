@@ -1,4 +1,4 @@
-DOT_FILES = .vim .vimrc .gitignore
+DOT_FILES = .vim .vimrc .gitconfig .gitignore
 
 all: install
 

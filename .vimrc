@@ -27,7 +27,7 @@ Bundle 'unite.vim'
 Bundle 'sudo.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'mattn/gist-vim'
-Bundle 'vim-scripts/AutoComplPop'
+Bundle 'muz/vim-gemfile'
 " vim-scripts repos
 " Bundle 'rails.vim'
 " non github repos

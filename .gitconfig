@@ -1,0 +1,10 @@
+[user]
+	name = M.Shibuya
+	email = mit.shibuya@gmail.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/shibuya/.gitignore
+	editor = /usr/bin/vim
+[alias]
+	diffc = diff --cached

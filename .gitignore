@@ -2,3 +2,7 @@
 *.swp
 .rbx
 .ruby-version
+.powenv
+
+/.vim/.netrwhist
+/.vim/bundle
