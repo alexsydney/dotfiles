@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'tpope/vim-rails'
-Bundle 'vim-ruby/vim-ruby'
+Bundle 'mshibuya/vim-ruby'
 Bundle 'git-commit'
 " Bundle 'Shougo/neocomplcache'
 Bundle 'cucumber.zip'
