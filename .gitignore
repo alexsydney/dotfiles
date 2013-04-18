@@ -3,6 +3,7 @@
 .rbx
 .ruby-version
 .powenv
+.fastdev.lock
 
 /.vim/.netrwhist
 /.vim/bundle
