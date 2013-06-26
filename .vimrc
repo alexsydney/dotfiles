@@ -60,10 +60,6 @@ colorscheme desert
 "  Ruby Settings
 au BufNewFile,BufRead *.rb set fenc=utf-8
 au BufNewFile,BufRead *.html.erb set fenc=utf-8
-let g:rubycomplete_buffer_loading = 1
-let g:rubycomplete_classes_in_global = 1
-let g:rubycomplete_rails = 1
-
 
 "  PHP Settings
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
