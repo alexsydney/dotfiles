@@ -1,4 +1,4 @@
-DOT_FILES = .vim .vimrc .gitconfig .gitignore .gemrc .rspec
+DOT_FILES = .vim .vimrc .gitconfig .gitignore .gemrc .rspec .bash_profile
 
 all: install
 
