@@ -10,3 +10,4 @@ fi
 alias ls='ls -G'
 alias be='bundle exec'
 alias pd='powder'
+alias vi='vim'
