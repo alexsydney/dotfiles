@@ -28,6 +28,7 @@ NeoBundle 'sudo.vim'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'muz/vim-gemfile'
+NeoBundle 'slim-template/vim-slim'
 " vim-scripts repos
 " NeoBundle 'rails.vim'
 " non github repos
@@ -53,6 +54,7 @@ set expandtab
 set autoindent
 set t_Co=256
 set background=dark
+set backspace=2
 let g:solarized_termcolors=256
 "colorscheme solarized
 colorscheme desert
@@ -146,3 +148,5 @@ if !exists('g:neocomplete#omni_patterns')
 endif
 let g:neocomplete#omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 "autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
+
+let g:neocomplete#force_overwrite_completefunc = 1
