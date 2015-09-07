@@ -1,14 +1,20 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
+" Note: Skip initialization for vim-tiny or vim-small.
+if 0 | endif
 
 if has('vim_starting')
-  set nocompatible               " Be iMproved
+  if &compatible
+    set nocompatible               " Be iMproved
+  endif
+
+  " Required:
   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
-call neobundle#rc(expand('~/.vim/bundle/'))
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
+" Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/neocomplete'
@@ -25,7 +31,6 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'unite.vim'
 NeoBundle 'sudo.vim'
-NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'muz/vim-gemfile'
 NeoBundle 'slim-template/vim-slim'
@@ -34,17 +39,13 @@ NeoBundle 'slim-template/vim-slim'
 " non github repos
 " NeoBundle 'git://git.wincent.com/command-t.git'
 
-syntax on
-filetype plugin indent on     " required! 
+call neobundle#end()
 
-"
-" Brief help
-" :NeoBundleList          - list configured bundles
-" :NeoBundleInstall(!)    - install(update) bundles
-" :NeoBundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" Required:
+filetype plugin indent on
 
-"
-" Installation check.
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
 NeoBundleCheck
 
 "  Global Configuration
@@ -55,8 +56,7 @@ set autoindent
 set t_Co=256
 set background=dark
 set backspace=2
-let g:solarized_termcolors=256
-"colorscheme solarized
+syntax on
 colorscheme desert
 
 "  Ruby Settings
