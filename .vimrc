@@ -34,6 +34,7 @@ NeoBundle 'sudo.vim'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'muz/vim-gemfile'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'derekwyatt/vim-scala'
 " vim-scripts repos
 " NeoBundle 'rails.vim'
 " non github repos
