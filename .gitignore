@@ -4,6 +4,7 @@
 .ruby-version
 .powenv
 .fastdev.lock
+**/conf/default.conf
 
 /.vim/.netrwhist
 /.vim/bundle
