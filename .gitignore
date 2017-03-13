@@ -1,10 +1,13 @@
 .DS_Store
-*.swp
 .rbx
 .ruby-version
 .powenv
 .fastdev.lock
-**/conf/default.conf
+.byebug_history
+*.swp
+*.bak
+default.conf
+npm-debug.log.*
 
 /.vim/.netrwhist
 /.vim/bundle

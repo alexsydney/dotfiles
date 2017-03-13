@@ -8,6 +8,7 @@
 	editor = /usr/local/bin/vim
 [alias]
 	diffc = diff --cached
+	pushf = push --force-with-lease
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
